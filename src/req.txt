@@ -1,0 +1,4 @@
+curl -X POST -H 'Content-Type: image/jpeg' -d '{"file": "home/greg/Desktop/image.jpg"}' http://localhost:4737/uploads
+
+curl -X POST -H 'Content-Type: multipart/form-data' -F "file=home/greg/Desktop/image.jpg" http://localhost:4737/uploads
+
